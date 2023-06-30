@@ -1,0 +1,4 @@
+.sobre__lista{
+    display: flex;
+    flex-direction: column;
+}

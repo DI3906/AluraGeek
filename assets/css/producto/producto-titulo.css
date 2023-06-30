@@ -1,0 +1,6 @@
+.producto__titulo{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2rem;
+    font-weight: bold;
+}

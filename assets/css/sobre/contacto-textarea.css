@@ -1,0 +1,14 @@
+.contacto__textarea{
+    width: 35rem;
+    height: 5.125rem;
+
+    resize: none;
+    border-radius: .25rem;
+
+    font-family: var(--raleway);
+    font-size: 1rem;
+
+    padding: 1rem;
+
+    margin-bottom: 1rem;
+}

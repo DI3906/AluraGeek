@@ -1,0 +1,10 @@
+:root{
+    --azul-bg: #2A7AE4;
+    --azul-footer: #EAF2FD;
+
+    --raleway: 'Raleway', sans-serif;
+}
+
+body{
+    font-family: var(--raleway);
+}

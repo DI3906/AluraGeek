@@ -1,0 +1,11 @@
+.sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: var(--azul-footer);
+}

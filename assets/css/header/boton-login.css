@@ -1,0 +1,11 @@
+.boton__login{
+    width: 11.375rem;
+    height: 3.188rem;
+
+    font-family: var(--raleway);
+    color: var(--azul-bg);
+
+    background: none;
+    border-color: var(--azul-bg);
+    border-radius: .5rem;
+}

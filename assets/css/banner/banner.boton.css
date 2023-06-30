@@ -1,0 +1,11 @@
+.banner__boton{
+    width: 8.063rem;
+    height: 3.188rem;
+
+    font-family: var(--raleway);
+    color: #FFFFFF;
+
+    background: var(--azul-bg);
+    border: none;
+    border-radius: .5rem;
+}

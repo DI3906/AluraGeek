@@ -1,0 +1,14 @@
+.barra__busqueda{
+    width: 24.563rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    background: #F5F5F5;
+    padding-left: .5rem;
+    font-family: var(--raleway);
+
+    margin-left: 2rem;
+}
+
+.busqueda-icon{
+    margin-left: -3rem;
+}

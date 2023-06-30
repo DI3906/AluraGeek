@@ -1,0 +1,10 @@
+.producto__subtitulo{
+    display: flex;
+    align-items: center;
+
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--azul-bg);  
+
+    margin-left: 30rem;
+}

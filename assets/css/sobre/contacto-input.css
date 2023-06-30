@@ -1,0 +1,15 @@
+.contacto__input{
+    width: 35rem;
+    height: 3.5rem;
+
+    padding-left: 1rem;
+
+    margin-bottom: 1rem;
+
+    font-family: var(--raleway);
+    font-size: 1rem;
+
+    background: #FFFFFF;
+    border-radius: .25rem;
+    border-color: none;
+}

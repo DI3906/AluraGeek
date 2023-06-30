@@ -1,0 +1,8 @@
+.banner__imagen{
+    background: url('/assets/img/bannerImagen.jpg') no-repeat center / cover;
+    width: 100%;
+    height: 22rem;
+
+    display: flex;
+    align-items: flex-end;
+}
