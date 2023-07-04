@@ -2,6 +2,21 @@
     display: flex;
     flex-direction: column;
 
-    margin-left: 9rem;
-    margin-bottom: 3rem;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .banner__encabezados{
+        margin-left: 1.25rem;
+        margin-bottom: 1rem;
+    }   
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .banner__encabezados{
+        margin-left: 3rem;
+    }
 }

@@ -2,3 +2,19 @@
     width: 11rem;
     height: 10.875rem;
 }
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .producto__imagen{
+        width: 9.75rem;
+        height: 10.875rem;
+    }    
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .producto__imagen{
+        width: 10.25rem;
+        height: 10.875rem;
+    }
+}

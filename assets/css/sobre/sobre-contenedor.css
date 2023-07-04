@@ -1,25 +1,22 @@
-.sobre{
+.sobre__contenedor{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: flex-start;
-    gap: 5rem;
-
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    background: var(--azul-footer);
 }
 
 /*M Ó V I L*/
 @media (max-width: 575.98px){
-    .sobre{
+    .sobre__contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .sobre__contenedor{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-}
-
-/*T A B L E T*/
-@media (min-width: 576px) and (max-width: 991.98px){
-
 }

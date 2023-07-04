@@ -8,7 +8,24 @@
     font-family: var(--raleway);
     font-size: 1rem;
 
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
 
     margin-bottom: 1rem;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .contacto__textarea{
+        width: 85vw;
+        height: 5.125rem;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .contacto__textarea{
+        width: 27.125rem;
+        height: 5.125rem;
+    }
 }

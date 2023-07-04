@@ -2,3 +2,18 @@
     width: 11rem;
     height: 3.125rem;
 }
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .logo{
+        width: 6.25rem;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .logo{
+        width: 6.25rem;
+        height: 1.75rem;
+    }
+}

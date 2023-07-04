@@ -1,8 +1,24 @@
 .banner__imagen{
-    background: url('https://cdn.masmovil.es/embed/c9369257f50a1dd1d81507a3e61574959272/mensajes-divertidos-buzon-de-voz-geek.jpg') no-repeat center / cover;
+    background: url(https://cdn.masmovil.es/embed/c9369257f50a1dd1d81507a3e61574959272/mensajes-divertidos-buzon-de-voz-geek.jpg) no-repeat center / cover;
     width: 100%;
     height: 22rem;
 
     display: flex;
     align-items: flex-end;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .banner__imagen{
+        width: 100%;
+        height: 12rem;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .banner__imagen{
+        width: 100%;
+        height: 22rem;
+    }
 }

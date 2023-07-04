@@ -4,11 +4,32 @@
     border-radius: 1rem;
     background: #F5F5F5;
     padding-left: .5rem;
-    font-family: var(--raleway);
 
-    margin-left: 2rem;
+    font-family: var(--raleway);
+    color: #A2A2A2;
 }
 
 .busqueda-icon{
     margin-left: -3rem;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .barra__busqueda{
+        display: none;
+    }
+
+    .busqueda-icon{
+        margin-left: 1rem;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .barra__busqueda{
+        width: 17rem;
+        height: 2.5rem;
+
+        font-size: .875rem;
+    }
 }

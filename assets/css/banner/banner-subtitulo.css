@@ -6,3 +6,16 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .banner__subtitulo{
+        font-size: .875rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+}

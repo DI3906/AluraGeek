@@ -4,7 +4,9 @@
 
     font-size: 1rem;
     font-weight: bold;
-    color: var(--azul-bg);  
+    color: var(--azul-bg);
+}
 
-    margin-left: 30rem;
+.flecha__icon{
+    margin-left: .5rem;
 }

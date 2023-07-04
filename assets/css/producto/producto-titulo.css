@@ -2,5 +2,19 @@
     display: flex;
     justify-content: flex-start;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 700;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .producto__titulo{
+        font-size: 1.375rem;
+    }   
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .producto__titulo{
+        font-size: 1.375rem;
+    }
 }
