@@ -1,5 +1,6 @@
 :root{
     --azul-bg: #2A7AE4;
+    --fondo: #F5F5F5;
     --azul-footer: #EAF2FD;
 
     --raleway: 'Raleway', sans-serif;
@@ -7,4 +8,5 @@
 
 body{
     font-family: var(--raleway);
+    background: var(--fondo);
 }

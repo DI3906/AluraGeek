@@ -1,20 +1,21 @@
-.busqueda__contenedor{
+.contenedor__form{
     display: flex;
-    align-items: center;
+
+    width: 62%;
+    justify-content: space-between;
 }
 
 /*M Ó V I L*/
 @media (max-width: 575.98px){
-    /* .busqueda__contenedor{
+    .contenedor__form{
         display: flex;
         flex-direction: row-reverse;
-        margin-left: 0;
-    } */
+        justify-content: center;
+        width: auto;
+    }
 }
 
 /*T A B L E T*/
 @media (min-width: 576px) and (max-width: 991.98px){
-    /* .busqueda__contenedor{
-        margin-left: -5rem;
-    } */
+    
 }
