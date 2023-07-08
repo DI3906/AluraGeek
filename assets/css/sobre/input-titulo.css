@@ -1,0 +1,19 @@
+.input__titulo{
+    position: absolute;
+	bottom: 1.4rem;
+	left: .5rem;
+
+    font-size: 1rem;
+
+	transition: all 0.3s ease;
+	color: gray;
+}
+
+.contacto__input:focus + .input__titulo, .contacto__input:valid + .input__titulo{
+    transform: translateY(-150%);
+    font-size: .75rem;
+}
+
+.contacto__input:focus + .input__titulo::after, .contacto__input:valid + .input__titulo::after{
+    transform: translateX(0);
+}

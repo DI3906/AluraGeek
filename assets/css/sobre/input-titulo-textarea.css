@@ -1,0 +1,20 @@
+.input__titulo-textarea{
+    position: absolute;
+
+	top: 2.5rem;
+	left: .5rem;
+
+    font-size: 1rem;
+
+	transition: all 0.3s ease;
+	color: gray;
+}
+
+.contacto__textarea:focus + .input__titulo-textarea, .contacto__textarea:valid + .input__titulo-textarea{
+    transform: translateY(-150%);
+    font-size: .70rem;
+}
+
+.contacto__textarea:focus + .input__titulo-textarea::after, .contacto__textarea:valid + .input__titulo-textarea::after{
+    transform: translateX(0);
+}

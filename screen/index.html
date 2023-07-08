@@ -38,6 +38,10 @@
     <link rel="stylesheet" href="../assets/css/sobre/sobre-lista.css">
     <link rel="stylesheet" href="../assets/css/sobre/sobre-item.css">
     <link rel="stylesheet" href="../assets/css/sobre/contacto.css">
+    <link rel="stylesheet" href="../assets/css/sobre/sobre-contacto.css">
+    <link rel="stylesheet" href="../assets/css/sobre/input-contenedor.css">
+    <link rel="stylesheet" href="../assets/css/sobre/input-titulo.css">
+    <link rel="stylesheet" href="../assets/css/sobre/input-titulo-textarea.css">
     <link rel="stylesheet" href="../assets/css/sobre/contacto-titulo.css">
     <link rel="stylesheet" href="../assets/css/sobre/contacto-input.css">
     <link rel="stylesheet" href="../assets/css/sobre/contacto-textarea.css">
@@ -173,8 +177,14 @@
                 <form action="" method="post">
                     <fieldset class="contacto">
                         <legend class="contacto__titulo">Hable con nosotros</legend>
-                        <input type="text" class="contacto__input" name="nombre" placeholder="Nombre" required pattern="[\s\S]{10,50}" data-tipo="nombre">
-                        <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__textarea" placeholder="Mensaje" required pattern="[\s\S]{10,300}" data-tipo="mensaje"></textarea>
+                        <div class="input__contenedor">
+                            <input type="text" class="contacto__input" name="nombre" required pattern="[\s\S]{1,30}">
+                            <label class="input__titulo">Nombre</label>
+                        </div>
+                        <div class="input__contenedor">
+                            <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__textarea" required pattern="[\s\S]{1,300}" data-tipo="mensaje"></textarea>
+                            <label class="input__titulo-textarea">Escribe tu mensaje</label>
+                        </div>
                         <button type="submit" class="contacto__boton">Enviar mensaje</button>
                     </fieldset>
                 </form>

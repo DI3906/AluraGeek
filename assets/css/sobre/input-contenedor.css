@@ -1,4 +1,6 @@
-.contacto .input__contenedor{
+.input__contenedor{
     position: relative;
     overflow: hidden;
+
+    padding-top: 1rem;
 }
