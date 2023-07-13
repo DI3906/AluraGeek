@@ -8,6 +8,8 @@
 
 	transition: all 0.3s ease;
 	color: gray;
+
+    pointer-events: none;
 }
 
 .contacto__textarea:focus + .input__titulo-textarea, .contacto__textarea:valid + .input__titulo-textarea{

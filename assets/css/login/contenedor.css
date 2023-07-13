@@ -1,0 +1,25 @@
+.contenedor{
+    position: relative;
+    overflow: hidden;
+
+    width: 26.438rem;
+
+    padding-bottom: 2rem;
+
+    border-radius: 4px;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .contenedor{
+        width: 17.188rem;
+
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .contenedor{
+        width: 17.188rem;
+    }
+}

@@ -1,12 +1,15 @@
 .boton__login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 11.375rem;
     height: 3.188rem;
 
     font-family: var(--raleway);
+    font-size: 1rem;
     color: var(--azul-bg);
 
-    background: none;
-    border-color: var(--azul-bg);
+    border: var(--azul-bg) 1px solid;    
     border-radius: .5rem;
 }
 
@@ -15,6 +18,8 @@
     .boton__login{
         width: 8.313rem;
         height: 2.5rem;
+
+        font-size: .875rem;
     }
 }
 
