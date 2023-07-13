@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Alura Geek</title>
-
+    <title>Productos | Alura Geek</title>
+    
     <!-- ICON -->
     <link rel="shortcut icon" href="../assets/img/Icon-AluraGeek - copia.ico">
 
@@ -19,13 +19,17 @@
     <link rel="stylesheet" href="../assets/css/header/busqueda-contenedor.css">
     <link rel="stylesheet" href="../assets/css/header/barra-busqueda.css">
     <link rel="stylesheet" href="../assets/css/header/boton-login.css">
+    
+    <link rel="stylesheet" href="../assets/css/productos.css">
+    <link rel="stylesheet" href="../assets/css/producto/productos-seccion.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-encabezado.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-titulo.css">
 
-    <link rel="stylesheet" href="../assets/css/login/login.css">
-    <link rel="stylesheet" href="../assets/css/login/form-titulo.css">
-    <link rel="stylesheet" href="../assets/css/login/contenedor.css">
-    <link rel="stylesheet" href="../assets/css/login/contenedor-input.css">
-    <link rel="stylesheet" href="../assets/css/login/contenedor-titulo.css">
-    <link rel="stylesheet" href="../assets/css/login/form-input-boton.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-lista.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-item.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-imagen.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-nombre.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-precio.css">
 
     <link rel="stylesheet" href="../assets/css/sobre.css">
     <link rel="stylesheet" href="../assets/css/sobre/sobre-contenedor.css">
@@ -51,21 +55,71 @@
             <svg height="2rem" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#A2A2A2" class="busqueda-icon"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 11.1455C5.49956 8.21437 7.56975 5.69108 10.4445 5.11883C13.3193 4.54659 16.198 6.08477 17.32 8.79267C18.4421 11.5006 17.495 14.624 15.058 16.2528C12.621 17.8815 9.37287 17.562 7.3 15.4895C6.14763 14.3376 5.50014 12.775 5.5 11.1455Z" stroke="A2A2A2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M15.989 15.4905L19.5 19.0015" stroke="A2A2A2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
         </div>
     </header>
-
     <main>
-        <form action="" class="login">
-            <h1 class="form__titulo">Iniciar Sesión</h1>
-            <div class="contenedor">
-                <input type="email" class="contenedor__input" name="email" required pattern="{1, 30}">
-                <label class="contenedor__titulo">Escriba su correo electrónico</label>
+        <section class="productos">
+            <div class="productos__seccion">
+            <div class="producto__encabezado">
+                <h1 class="producto__titulo">Todos los productos</h1>
+                <a href="" class="producto__agregar">Agregar producto</a>
             </div>
-            <div class="contenedor">
-                <input type="password" class="contenedor__input" name="password" required>
-                <label class="contenedor__titulo">Escriba su contraseña</label>
+            <div class="productos__lista">
+                <div class="producto__item">
+                    <img src="../assets/img/unsplash_6FDXGY9J6y4.png" alt="" class="producto__imagen">
+                    <h3 class="producto__nombre">Producto XYZ</h3>
+                    <p class="producto__precio">$60,00</p>
+                    <p class="producto__id">#QQQQQQ</p>
+                </div>
+                <div class="producto__item">
+                    <img src="../assets/img/unsplash_6FDXGY9J6y4.png" alt="" class="producto__imagen">
+                    <h3 class="producto__nombre">Producto XYZ</h3>
+                    <p class="producto__precio">$60,00</p>
+                    <p class="producto__id">#QQQQQQ</p>
+                </div>
+                <div class="producto__item">
+                    <img src="../assets/img/unsplash_6FDXGY9J6y4.png" alt="" class="producto__imagen">
+                    <h3 class="producto__nombre">Producto XYZ</h3>
+                    <p class="producto__precio">$60,00</p>
+                    <p class="producto__id">#QQQQQQ</p>
+                </div>
+                <div class="producto__item">
+                    <img src="../assets/img/unsplash_6FDXGY9J6y4.png" alt="" class="producto__imagen">
+                    <h3 class="producto__nombre">Producto XYZ</h3>
+                    <p class="producto__precio">$60,00</p>
+                    <p class="producto__id">#QQQQQQ</p>
+                </div>
+                <div class="producto__item">
+                    <img src="../assets/img/unsplash_6FDXGY9J6y4.png" alt="" class="producto__imagen">
+                    <h3 class="producto__nombre">Producto XYZ</h3>
+                    <p class="producto__precio">$60,00</p>
+                    <p class="producto__id">#QQQQQQ</p>
+                </div>
+                <div class="producto__item">
+                    <img src="../assets/img/unsplash_6FDXGY9J6y4.png" alt="" class="producto__imagen">
+                    <h3 class="producto__nombre">Producto XYZ</h3>
+                    <p class="producto__precio">$60,00</p>
+                    <p class="producto__id">#QQQQQQ</p>
+                </div>
+                <div class="producto__item">
+                    <img src="../assets/img/unsplash_6FDXGY9J6y4.png" alt="" class="producto__imagen">
+                    <h3 class="producto__nombre">Producto XYZ</h3>
+                    <p class="producto__precio">$60,00</p>
+                    <p class="producto__id">#QQQQQQ</p>
+                </div>
+                <div class="producto__item">
+                    <img src="../assets/img/unsplash_6FDXGY9J6y4.png" alt="" class="producto__imagen">
+                    <h3 class="producto__nombre">Producto XYZ</h3>
+                    <p class="producto__precio">$60,00</p>
+                    <p class="producto__id">#QQQQQQ</p>
+                </div>
+                <div class="producto__item">
+                    <img src="../assets/img/unsplash_6FDXGY9J6y4.png" alt="" class="producto__imagen">
+                    <h3 class="producto__nombre">Producto XYZ</h3>
+                    <p class="producto__precio">$60,00</p>
+                    <p class="producto__id">#QQQQQQ</p>
+                </div>
             </div>
-            <input type="submit" value="Entrar" class="form__input-boton">
-        </form>
-
+        </div>
+        </section>
         <section class="sobre">
             <div class="sobre__contenedor">
                 <img src="../assets/img/LogoAluraGeek.svg" alt="Logo Alura Geek">
@@ -96,7 +150,6 @@
             </div>
         </section>
     </main>
-
     <footer class="rodapie">
         <p>Desarrollado por Diego Garcia - 2023</p>
         <div class="rodapie__contenedor">
@@ -104,6 +157,5 @@
             <a href="https://www.linkedin.com/in/diego-garc%C3%ADa-934114262" class="titulo__redes-link"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" class="rodapie__logo"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
         </div>
     </footer>
-    <script src="../controllers/validar-login.js"></script>
 </body>
 </html>
