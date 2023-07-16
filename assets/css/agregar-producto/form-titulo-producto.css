@@ -1,0 +1,23 @@
+.form__titulo-producto{
+    font-size: 2rem;
+    font-weight: 700;
+
+    padding-bottom: 1rem;
+
+    display: flex;
+    align-content: flex-start;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .form__titulo-producto{
+        font-size: 1.375rem;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .form__titulo-producto{
+        font-size: 1.375rem;
+    }
+}

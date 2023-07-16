@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="../assets/css/header/boton-login.css">
 
     <link rel="stylesheet" href="../assets/css/login/login.css">
+    <link rel="stylesheet" href="../assets/css/login/login-contenedor.css">
     <link rel="stylesheet" href="../assets/css/login/form-titulo.css">
     <link rel="stylesheet" href="../assets/css/login/contenedor.css">
     <link rel="stylesheet" href="../assets/css/login/contenedor-input.css">
@@ -54,16 +55,18 @@
 
     <main>
         <form action="" class="login">
-            <h1 class="form__titulo">Iniciar Sesión</h1>
-            <div class="contenedor">
-                <input type="email" class="contenedor__input" name="email" required pattern="{1, 30}">
-                <label class="contenedor__titulo">Escriba su correo electrónico</label>
-            </div>
-            <div class="contenedor">
-                <input type="password" class="contenedor__input" name="password" required>
-                <label class="contenedor__titulo">Escriba su contraseña</label>
-            </div>
-            <input type="submit" value="Entrar" class="form__input-boton">
+            <fieldset class="login__contenedor">
+                <legend class="form__titulo">Iniciar Sesión</legend>
+                <div class="contenedor">
+                    <input type="email" class="contenedor__input" name="email" required pattern="{1, 30}">
+                    <label class="contenedor__titulo">Escriba su correo electrónico</label>
+                </div>
+                <div class="contenedor">
+                    <input type="password" class="contenedor__input" name="password" required>
+                    <label class="contenedor__titulo">Escriba su contraseña</label>
+                </div>
+                <input type="submit" value="Entrar" class="form__input-boton">
+            </fieldset>
         </form>
 
         <section class="sobre">

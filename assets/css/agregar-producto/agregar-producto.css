@@ -1,0 +1,23 @@
+.agregar__producto{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+
+    width: 34.938rem;
+    background: wheat;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .agregar__producto{
+        width: 328px;
+
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .contenedor{
+        width: 44rem;
+    }
+}

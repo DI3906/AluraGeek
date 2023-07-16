@@ -1,0 +1,22 @@
+.boton__menu-administrador{
+    width: 11.438rem;
+    height: 3.188rem;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .boton__menu-administrador{
+        width: 10.375rem;
+        height: 2.5rem;
+
+        font-size: .875rem;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .boton__login{
+        width: 9rem;
+        height: 2.5rem;
+    }
+}
