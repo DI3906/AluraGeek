@@ -1,0 +1,33 @@
+.producto__agregar{
+    width: 10.188rem;
+    height: 3.188rem;
+
+    background: var(--azul-bg);
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .producto__agregar{
+        width: 9.375rem;
+        height: 2.5rem;
+
+        font-size: 0.875rem;
+
+        margin-top: 1rem;
+    }   
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .producto__agregar{
+        width: 9.375rem;
+        height: 2.5rem;
+
+        font-size: 0.875rem;
+    }
+}

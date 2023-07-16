@@ -1,7 +1,8 @@
 .producto__encabezado{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-
+    align-items: center;
     padding: 1rem;
 }
 
@@ -9,6 +10,7 @@
 @media (max-width: 575.98px){
     .producto__encabezado{
         display: flex;
+        width: 90%;
     }  
 }
 
