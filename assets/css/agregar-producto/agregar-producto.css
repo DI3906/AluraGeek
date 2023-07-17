@@ -4,13 +4,12 @@
     align-content: flex-start;
 
     width: 34.938rem;
-    background: wheat;
 }
 
 /*M Ó V I L*/
 @media (max-width: 575.98px){
     .agregar__producto{
-        width: 328px;
+        width: 20.5rem;
 
     }
 }

@@ -27,7 +27,10 @@
     <link rel="stylesheet" href="../assets/css/login/contenedor.css">
     <link rel="stylesheet" href="../assets/css/login/contenedor-input.css">
     <link rel="stylesheet" href="../assets/css/login/contenedor-titulo.css">
+    <link rel="stylesheet" href="../assets/css/agregar-producto/contenedor-text.css">
+    <link rel="stylesheet" href="../assets/css/agregar-producto/contenedor-text-titulo.css">
     <link rel="stylesheet" href="../assets/css/login/form-input-boton.css">
+    <link rel="stylesheet" href="../assets/css/sobre/input-titulo-textarea.css">
 
     <link rel="stylesheet" href="../assets/css/agregar-producto/agregar-producto.css">
     <link rel="stylesheet" href="../assets/css/agregar-producto/form-titulo-producto.css">
@@ -77,13 +80,16 @@
                     <input type="text" class="contenedor__input " name="producto-nombre" required>
                     <label class="contenedor__titulo">Nombre del producto</label>
                 </div>
-                <div class="contenedor">
-                    <input type="text" class="contenedor__input" name="producto-precio" required pattern="(\d+\.\d{1,2})">
+                <div class="contenedor input__producto">
+                    <input type="text" class="contenedor__input" name="producto-precio" required pattern="^\$?[0-9]+(\.[0-9]{2})?$">
                     <label class="contenedor__titulo">Precio del producto</label>
                 </div>
-                <div class="contenedor">
-                    <input type="text" class="contenedor__input" name="categoria" required>
-                    <label class="contenedor__titulo">Descripción del producto</label>
+                <div class="contenedor input__producto">
+                    <!-- <input type="text" class="contenedor__input contenedor__input-text" name="categoria" required> --> 
+                    <!-- <input type="text" class="contenedor__text" name="categoria" required pattern="[\s\S]{1,300}"> -->
+                     
+                    <textarea class="contenedor__text" name="descripcion-producto" id="" cols="30" rows="10" pattern="[\s\S]{1,300}"></textarea>
+                    <label class="contenedor__text-titulo">Descripción del producto</label>
                 </div>
                 <input type="submit" value="Agregar producto" class="form__input-boton">
             </fieldset>
