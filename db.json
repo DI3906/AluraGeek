@@ -6,15 +6,15 @@
       "nombreProducto": "Producto XYZ",
       "precioProducto": "$60.00",
       "descripcion": "",
-      "id": 1
+      "id": "1"
     },
     {
-      "imageUrl": "https://images.unsplash.com/photo-1620950127852-92592960e363?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+      "imagenUrl": "https://images.unsplash.com/photo-1620950127852-92592960e363?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
       "categoria": "Star Wars",
-      "nombre": "Producto XYZ",
-      "precio": "$60.00",
+      "nombreProducto": "Producto XYZ",
+      "precioProducto": "$60.00",
       "descripcion": "Lorem",
-      "id": "7b4176b6-8783-44e7-aaba-ec28eb0b51d8"
+      "id": "03d58e36-b164-4797-9b45-ab70c751ec72"
     }
   ]
 }
