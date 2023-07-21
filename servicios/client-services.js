@@ -12,7 +12,13 @@ const crearProducto = (imagenUrl, categoria, nombreProducto, precioProducto, des
     })
 }
 
+//Detalle producto
+const detalleProducto = (id) =>{
+    return fetch(`http://localhost:3000/producto/${id}`).then( respuesta => respuesta.json());
+}
+
 export const productoServices = {
     listaProductos,
     crearProducto,
+    detalleProducto,
 }
