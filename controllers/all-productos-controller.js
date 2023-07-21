@@ -26,4 +26,4 @@ productoServices.listaProductos().then((data) => {
         const verProductos = vistaProducto(producto.imagenUrl, producto.nombreProducto, producto.precioProducto, producto.id);
         productoContenido.appendChild(verProductos);
     });
-}).catch((err) => alert("Ocurrió un error :("))
+}).catch(() => alert("Ocurrió un error :("))
