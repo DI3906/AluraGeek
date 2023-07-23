@@ -1,4 +1,5 @@
 .producto__item{
+    width: 11rem;
     display: flex;
     flex-direction: column;
     margin-bottom: 1.5rem;

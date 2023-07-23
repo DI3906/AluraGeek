@@ -51,7 +51,7 @@
     {
       "imagenUrl": "https://gta5.tv/wp-content/uploads/2021/08/Comment-Changer-le-theme-dune-Xbox-780x1170.jpeg",
       "categoria": "Consolas",
-      "nombreProducto": "Producto XYZ",
+      "nombreProducto": "Control XYZ",
       "precioProducto": "$60.00",
       "descripcion": "Lorem",
       "id": "9f837604-60f8-4918-b4bb-02c51e7c7f9c"
@@ -59,7 +59,7 @@
     {
       "imagenUrl": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=80",
       "categoria": "Consolas",
-      "nombreProducto": "Producto XYZ",
+      "nombreProducto": "Control y consola XYZ",
       "precioProducto": "$60.00",
       "descripcion": "Lorem",
       "id": "738c233a-b456-4d53-8660-dfbc8581b83b"
@@ -67,7 +67,7 @@
     {
       "imagenUrl": "https://www.infobae.com/new-resizer/kogJKhOV_JjHFcciRXTDHPNwL9k=/992x661/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/AGWHMRTIZNFOTDK2AJNDT6AU3E.jpg",
       "categoria": "Consolas",
-      "nombreProducto": "Producto XYZ",
+      "nombreProducto": "Consola XYZ",
       "precioProducto": "$60.00",
       "descripcion": "Lorem",
       "id": "b8b14ea0-d5f2-43fa-9689-8f88eafa595a"
@@ -75,7 +75,7 @@
     {
       "imagenUrl": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/10/ehimetalor-akhere-unuabona-wa5z9o9fgjw-unsplash-scaled.jpg?resize=1200%2C800&quality=50&strip=all&ssl=1",
       "categoria": "Consolas",
-      "nombreProducto": "Producto XYZ",
+      "nombreProducto": "Control XYZ",
       "precioProducto": "$60.00",
       "descripcion": "Lorem",
       "id": "93aafe3a-d975-40c8-b7f7-f47306b33381"
@@ -83,7 +83,7 @@
     {
       "imagenUrl": "https://images.unsplash.com/photo-1621259182181-1ccb9ec306cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbnNvbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60",
       "categoria": "Consolas",
-      "nombreProducto": "Producto XYZ",
+      "nombreProducto": "Consola XYZ",
       "precioProducto": "$60.00",
       "descripcion": "Lorem",
       "id": "e00b2a2f-b884-439a-a53a-b5c399477d0a"
@@ -91,7 +91,7 @@
     {
       "imagenUrl": "https://images.unsplash.com/photo-1577583113753-ca7e95d1bdc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       "categoria": "Consolas",
-      "nombreProducto": "Producto XYZ",
+      "nombreProducto": "Game Boy Color",
       "precioProducto": "$60.00",
       "descripcion": "Lorem",
       "id": "478764a4-c30a-403c-8a0a-9159349835c6"
@@ -142,7 +142,7 @@
       "nombreProducto": "Producto XYZ",
       "precioProducto": "$60.00",
       "descripcion": "Lorem",
-      "id": "7531d27c-748c-4c06-adc1-e0e10d31e570"
+      "id": "4fef366d-8a16-426d-af0b-bb2a78930e53"
     }
   ]
 }

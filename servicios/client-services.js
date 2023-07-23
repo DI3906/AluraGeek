@@ -30,9 +30,17 @@ const actualizarProducto = (imagenUrl, categoria, nombreProducto, precioProducto
     .catch((err) => console.log(err));
 }
 
+//Eliminar producto
+const eliminarProducto = (id) =>{
+    return fetch(`http://localhost:3000/producto/${id}`,{
+        method: "DELETE",
+    })
+}
+
 export const productoServices = {
     listaProductos,
     crearProducto,
     detalleProducto,
     actualizarProducto,
+    eliminarProducto,
 }
