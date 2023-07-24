@@ -14,12 +14,31 @@ const crearSeccion = (imagenUrl, nombre, precio) => {
     return item;
 }
 
+//Variable para la seccion Star Wars
 const productoTarjeta = document.querySelector('[data-seccion]');
+
+//Variable para la seccion Consolas
+const consolasTarjetas = document.querySelector('[data-seccion-consolas]');
+
+//Variable para la sección Diversos
+const diversosTarjeta = document.querySelector('[data-seccion-diversos]');
+
 
 productoServices.listaProductos().then((data) =>{
     data.forEach(producto => {
-        const nuevoItem = crearSeccion(producto.imagenUrl, producto.nombreProducto, producto.precioProducto);
-        productoTarjeta.appendChild(nuevoItem);
+        //Variable para obtener el valor de la categoria
+        const categoria = producto.categoria;
+        /* console.log(categoria); */
+        if(categoria == "Star Wars"){
+            const nuevoItem = crearSeccion(producto.imagenUrl, producto.nombreProducto, producto.precioProducto);
+            productoTarjeta.appendChild(nuevoItem); 
+        }else if (categoria == "Consolas") {
+            const nuevoItem = crearSeccion(producto.imagenUrl, producto.nombreProducto, producto.precioProducto);
+            consolasTarjetas.appendChild(nuevoItem);
+        } else {
+            const nuevoItem = crearSeccion(producto.imagenUrl, producto.nombreProducto, producto.precioProducto);
+            diversosTarjeta.appendChild(nuevoItem);
+        }
     });   
 })
 .catch((error) => alert("Ocurrió un error"));
