@@ -1,0 +1,15 @@
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--azul-bg);
+    color: #fff;
+
+    width: 10rem;
+    height: 3rem;
+
+    border-radius: 4px;
+
+    margin-top: 1rem;
+}
